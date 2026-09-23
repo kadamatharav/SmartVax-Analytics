@@ -142,7 +142,6 @@ The final dashboard contains analytical KPI cards such as:
 These values are dashboard-level aggregations based on the imported
 analysis tables and should be interpreted within the scope of the
 underlying datasets.
-📁 Project Structure
 Vaccination_Data_Analysis/
 │
 ├── README.md
