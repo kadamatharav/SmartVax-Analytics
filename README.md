@@ -142,36 +142,7 @@ The final dashboard contains analytical KPI cards such as:
 These values are dashboard-level aggregations based on the imported
 analysis tables and should be interpreted within the scope of the
 underlying datasets.
-Vaccination_Data_Analysis/
-│
-├── README.md
-├── Vaccination_Data_Analysis.pbix
-├── Vaccination_Analysis.xlsx
-│
-├── datasets/
-│   ├── coverage-data.xlsx
-│   ├── vaccine-schedule-data.xlsx
-│   ├── vaccine-introduction-data.xlsx
-│   ├── reported-cases-data.xlsx
-│   └── incidence-rate-data.xlsx
-│
-├── analysis_results/
-│   ├── Q1_vaccination_vs_incidence.csv
-│   ├── Q2_dose_dropoff.csv
-│   ├── Q3_disease_reduction.csv
-│   ├── Q4_target_coverage.csv
-│   ├── Q5_geographic_area.csv
-│   ├── Q6_booster_trend.csv
-│   ├── Q7_antigen_disease.csv
-│   ├── Q8_low_coverage_availability.csv
-│   ├── Q9_coverage_gaps.csv
-│   ├── Q10_high_coverage_high_incidence.csv
-│   └── ...
-│
-└── sql/
-    ├── Oracle_Schema.sql
-    ├── Data_Load.sql
-    └── Analysis_Queries.sql
+
 ⚠️ Data Limitations
 The available datasets have some limitations:
 - No general gender field suitable for broad demographic analysis.
